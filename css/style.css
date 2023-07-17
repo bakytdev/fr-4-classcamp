@@ -492,3 +492,52 @@ button {
 
 /*the end*/
 
+
+/*offer start*/
+
+#offer {
+    padding: 180px 0;
+    background: #121118;
+}
+
+.offer h4 {
+    color: #8BFFB0;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.offer h1 {
+    padding: 21px 0 32px 0;
+    width: 787px;
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 400;
+}
+
+.offer p {
+    width: 904px;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.offer-img {
+    animation: offerImg 3s infinite linear;
+    padding-top: 70px;
+}
+
+@keyframes offerImg {
+    0% {
+        opacity: 0;
+    }
+}
+
+/*offer end*/
